@@ -5,6 +5,10 @@
 #+begin_note
 Talk Duration: 45 min max.
 Display font is: ARCADE NORMAL
+
+Talk available at:
+https://github.com/FujiNetWIFI/fujinet-sotu-2025
+
 #+end_note
 
 * topics
@@ -183,4 +187,4 @@ Display font is: ARCADE NORMAL
 * Questions?
 
 - Get a copy of this talk at:
-  
+  https://github.com/FujiNetWIFI/fujinet-sotu-2025 
