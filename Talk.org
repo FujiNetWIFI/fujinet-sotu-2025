@@ -22,10 +22,10 @@ https://github.com/FujiNetWIFI/fujinet-sotu-2025
 
 ** NEW EMULATOR: ATARI800
 
-- @mozzwald added NetSIO support to Atari800
+- @mozzwald added NetSIO support to [[shell:atari800 -ntsc -netsio >/dev/null 2>&1][Atari800]]
 
 - @mozzwald also got it working on Miyoo Mini. :)
-  
+
 - Emulator runs on Windows, Linux, MacOS, ARM devices
 
 - Less features than Altirra, but more lightweight.
@@ -65,7 +65,7 @@ https://github.com/FujiNetWIFI/fujinet-sotu-2025
 ** New Game: Fujitzee
 
 - Yahtzee game!
-  
+
 - Written by Eric Carr, who also wrote 5 Card Stud
 
 - Written in cross-platform C
@@ -82,7 +82,7 @@ https://github.com/FujiNetWIFI/fujinet-sotu-2025
 - Links:
   Client: https://github.com/FujiNetWIFI/fujinet-apps/tree/master/fujitzee/cross-platform
   Server: https://github.com/FujiNetWIFI/servers/tree/main/fujinet-game-system/fujitzee/server
-  
+
 ** New Demo: Bouncy World
 
 - A networked spatial simulation
@@ -111,7 +111,7 @@ https://github.com/FujiNetWIFI/fujinet-sotu-2025
 
 - Provides same Network Protocols as other FujiNets
 
-- Wolfgang Stubig of PlusCart made a 5 Card Stud client
+- Wolfgang Stubig of PlusCart made a [[shell:mpv assets/two-ataris-playing-5cs.mp4 >/dev/null 2>&1][5 Card Stud client]]
 
 ** Platform Hardware: ESP32S3
 
@@ -154,7 +154,7 @@ https://github.com/FujiNetWIFI/fujinet-sotu-2025
   in the Web UI.
 
 - Link:  https://github.com/markjfisher/fujinet-config-ng
-  
+
 ** Firmware: WebDAV Server
 
 - Copy to/from your PC directly onto FujiNet's SD card.
@@ -176,15 +176,15 @@ https://github.com/FujiNetWIFI/fujinet-sotu-2025
 - Send them over! https://discord.gg/2Ce9guX
 
 - Wanna show this at a show? Talk in #retro-events!
-  
+
 - Bring-ups still progressing:
   - Commodore IEC (talk to @idolpx in Discord.)
   - Atari ST (talk to @sjfroos in Discord.)
   - Atari 2600 (need help porting the rest of FujiNet)
   - Intellivision (need hardware that marries PiRTO and ESP32-S3)
   - Atari Lynx (talk to @shawn Jefferson in Discord.)
-  
+
 * Questions?
 
 - Get a copy of this talk at:
-  https://github.com/FujiNetWIFI/fujinet-sotu-2025 
+  https://github.com/FujiNetWIFI/fujinet-sotu-2025
