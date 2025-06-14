@@ -22,9 +22,9 @@ https://github.com/FujiNetWIFI/fujinet-sotu-2025
 
 ** NEW EMULATOR: ATARI800
 
-- @mozzwald added NetSIO support to [[shell:atari800 -ntsc -netsio >/dev/null 2>&1][Atari800]]
+- @mozzwald added NetSIO support to [[shell:atari800 -ntsc -netsio >/dev/null & 2>&1 ][Atari800]]
 
-- @mozzwald also got it working on Miyoo Mini. :)
+- @mozzwald also got it working on [[shell:imv assets/miyoo-fujinet.jpg >/dev/null & 2>&1][Miyoo Mini]]. :)
 
 - Emulator runs on Windows, Linux, MacOS, ARM devices
 
@@ -42,7 +42,7 @@ https://github.com/FujiNetWIFI/fujinet-sotu-2025
 
 - Speeds from 300 to 115200 Baud
 
-- First Platform support: PC MS-DOS
+- First Platform support: [[shell:mpv "assets/2025-06-05 08-25-51.mp4" >/dev/null][PC MS-DOS]]
 
 - Uses DTR for synchronization, RI for Network Interrupt.
 
@@ -61,6 +61,7 @@ https://github.com/FujiNetWIFI/fujinet-sotu-2025
   - ISA (and PCjr) bus design
 
 - INT F5 abstracts the transport.
+  [[shell:imv assets/mastodon_tp1.png && imv assets/mastodon_tp2.png && imv assets/mastodon_tp3.png && imv assets/mastodon_tp4.png assets/mastodon_tp5.png][Can be used from any language!]]
 
 ** New Game: Fujitzee
 
@@ -68,7 +69,7 @@ https://github.com/FujiNetWIFI/fujinet-sotu-2025
 
 - Written by Eric Carr, who also wrote 5 Card Stud
 
-- Written in cross-platform C
+- Written in [[shell:imv assets/fujitzee.png][cross-platform C]]
 
 - Versions for:
   - ATARI
@@ -76,8 +77,8 @@ https://github.com/FujiNetWIFI/fujinet-sotu-2025
   - TRS-80 Color Computer
   - (Anyone want to help port the Adam version?)
 
-- Accessible via Game Lobby
   or by loading directly via TNFS.
+- Accessible via [[shell:imv assets/lobby.png][Game Lobby]]
 
 - Links:
   Client: https://github.com/FujiNetWIFI/fujinet-apps/tree/master/fujitzee/cross-platform
@@ -85,7 +86,7 @@ https://github.com/FujiNetWIFI/fujinet-sotu-2025
 
 ** New Demo: Bouncy World
 
-- A networked spatial simulation
+- A [[shell:mpv assets/bouncy_world.webm >/dev/null][networked spatial simulation]]
 
 - Written by Mark Fisher
 
@@ -105,9 +106,9 @@ https://github.com/FujiNetWIFI/fujinet-sotu-2025
 
 - Uses an RP2040 for the bus and ROM interface.
 
-- First full example of a bus-driven FujiNet
+- First full example of a [[shell:imv assets/fuji_2600.jpg][bus-driven FujiNet]]
 
-- Can load existing 2600 games directly from Network
+- Can load [[shell:mpv assets/fujinet-2600.mp4 >/dev/null 2>&1 &][existing 2600 games]] directly from Network
 
 - Provides same Network Protocols as other FujiNets
 
@@ -121,11 +122,17 @@ https://github.com/FujiNetWIFI/fujinet-sotu-2025
 
 - More fast RAM (512K up from 320K)
 
+- Can use ALL AVAILABLE PSRAM
+  without need for bank-switching!
+
 - More GPIOs (33)
 
 - More flexible USB host
 
 - Can be hooked to RP2040 or 2350 via USB for fast interconnect.
+
+- We also used the opportunity to update our toolchains to the latest ESP-IDF
+  (Thanks @idolpx!)
 
 ** Config: Recursive Search
 
@@ -134,6 +141,8 @@ https://github.com/FujiNetWIFI/fujinet-sotu-2025
 
 - e.g. "!Dig Dug"
   to find all copies of Dig Dug from the current directory, forward.
+
+- [[shell:atari800 -ntsc -netsio >/dev/null & 2>&1][Show Example]]
 
 ** CONFIG: CONFIG-NG
 
@@ -151,9 +160,11 @@ https://github.com/FujiNetWIFI/fujinet-sotu-2025
 
 - Can be loaded by placing the ATR on the SD card,
   and selecting it as the alternate CONFIG program
-  in the Web UI.
+  in the [[http://localhost:8000/][Web UI]].
 
 - Link:  https://github.com/markjfisher/fujinet-config-ng
+
+- [[shell:atari800 -ntsc -netsio >/dev/null & 2>&1][Demo]]
 
 ** Firmware: WebDAV Server
 
